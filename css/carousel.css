@@ -139,6 +139,22 @@ body {
   margin-top: 4rem;
 }
 
+.quote {
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+}
+
+figure {
+  color: #292929;
+  margin: 1rem;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -168,3 +184,4 @@ body {
   width: 100%;
   /* The width is the width of the web page */
 }
+
