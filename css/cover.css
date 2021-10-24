@@ -62,3 +62,10 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+.hd-down {
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+  font-size: 1.15rem;
+}
+

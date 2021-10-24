@@ -9,7 +9,11 @@
     <title>Home - Counti</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 
     <!-- Bootstrap core CSS -->
@@ -36,9 +40,13 @@
     <link href="css/cover.css" rel="stylesheet">
   </head>
   <body class="d-flex h-100 text-center text-white bg-dark">
+  
+    <script>
+      AOS.init();
+    </script>
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
+  <header class="mb-auto hd-down">
     <div>
       <h3 class="float-md-start mb-0">Counti</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
@@ -49,15 +57,16 @@
       </nav>
     </div>
   </header>
-
+<div data-aos="zoom-out">
   <main class="px-3 background-img">
-    <h1>Be a friend, not a bully.</h1>
-    <p class="lead">Bullying happens all over the world, no country is no exception. Bullying affects both parties - the bullied and the bully and these effects are always negative. We, <b>Counti</b> decided to jumpstart this campaign to stop bullying.  
+    <h1 class="fw-bold">Be a friend, not a bully.</h1>
+    <p>Bullying happens all over the world, no country is no exception. Bullying affects both parties - the bullied and the bully and these effects are always negative. We, <b>Counti</b> decided to jumpstart this campaign to stop bullying.  
     </p>
     <p class="lead">
       <a href="why.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
     </p>
   </main>
+</div>
 
   <footer class="mt-auto text-white-50 text-center">
     <p>Templates from <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>.</p>

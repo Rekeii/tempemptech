@@ -10,10 +10,12 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    
 
     <!-- Bootstrap core CSS -->
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <style>
       .bd-placeholder-img {
@@ -115,12 +117,12 @@
 
 
 <div class="d-flex chart-container flex-row position-relative">
-  <div class="p-2 bd-highlight">
+  <div class="p-2 bd-highlight" data-aos="fade-right">
   
     <canvas id="myChart" width="400px" height="400px"></canvas>
     <script src="js/script.js"></script>
   </div>
-  <div class="p-2 bd-highlight">
+  <div class="p-2 bd-highlight" data-aos="fade-left">
     <p class="fs-3 fw-bolder lh-base parent-text">
     According to a study by Margaret Sanapo, in Western Visayas, the numbers total to 43.9% to female pinoy teens bullied and an astonishing, 54.1% in the male department.
     </p>
@@ -130,7 +132,7 @@
   </div>
 </div>
 
-<div class="text-container mx-auto flex-column hd-center justify-text" style="margin:1rem;">
+<div class="text-container mx-auto flex-column hd-center justify-text" style="margin:1rem;" data-aos="flip-up">
     <figure class="quote">
   <blockquote>
    The Ateneo de Manila University Junior High School has launched an urgent investigation into a bullyingincident between two students on campus that was captured on video. The video, which shows a student challenging his schoolmate to fight in a comfort room.
@@ -168,7 +170,10 @@
 
   
 
-    <div class="row featurette">
+    <div class="row featurette" data-aos="fade-right">
+    <script>
+  AOS.init();
+    </script>
       <div class="col-md-7">
         <h2 class="featurette-heading">Teaching the world. <span class="text-muted">Seminars nationwide.</span></h2>
         <p class="lead">We hold seminars nationwide teaching the importance of empathy. Being able to put yourselves in other shoes'.</p>
@@ -179,8 +184,11 @@
     </div>
     
     <hr class="featurette-divider">
-
-    <div class="row featurette">
+    
+    <div class="row featurette" data-aos="fade-left">
+    <script>
+  AOS.init();
+    </script>
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Spreading the word online.<span class="text-muted"> Social Media.</span></h2>
         <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
@@ -192,7 +200,10 @@
 
     <hr class="featurette-divider">
     
-    <div class="row featurette">
+    <div class="row featurette" data-aos="fade-right">
+    <script>
+  AOS.init();
+    </script>
       <div class="col-md-7">
         <h2 class="featurette-heading">Safe Sanctuary.<span class="text-muted"> Shelter here.</span></h2>
         <p class="lead">Aside from educating the people, it is also important to give the people the right and safe environment they need. We've built a safe sanctuary for people to visit coupled with mental and physical health facilities.</p>
@@ -205,7 +216,10 @@
     
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row featurette" data-aos="fade-left">
+    <script>
+  AOS.init();
+    </script>
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Social Events.<span class="text-muted"> Create bonds.</span></h2>
         <p class="lead">Aside from a safe environment, we strive to host events. These allows people to form a sort of camraderie and create long lasting bonds. These bonds can help empower themselves after being bullied or being a bully. 

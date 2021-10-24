@@ -10,6 +10,8 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 
     <!-- Bootstrap core CSS -->
@@ -36,7 +38,9 @@
     <link href="css/carousel.css" rel="stylesheet">
   </head>
   <body class="h-100 text-white bg-dark">
-    
+    <script>
+      AOS.init();
+    </script>
 <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto hd-down">
     <div class="mx-auto flex-column hd-center">
@@ -49,7 +53,8 @@
       </nav>
     </div>
   </header>
-
+  
+<div data-aos="zoom-out">
   <main>
 	
 <h1 class="text-center">Get Involved!</h1>
@@ -67,6 +72,7 @@
 </form>
 	
   </main>
+</div>
 
   <footer class="mt-auto text-white-50 text-center">
     <p>Templates from <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>.</p>
